@@ -1,0 +1,32 @@
+{
+  "name": "discord-volume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/main.ts",
+  "scripts": {
+    "test": "ts-node src/main.ts",
+    "start": "tsc -p . && node dist/main.js",
+    "comp": "tsc -p ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/take1-stock/discord-volume.git"
+  },
+  "author": "take1-stock",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/take1-stock/discord-volume/issues"
+  },
+  "homepage": "https://github.com/take1-stock/discord-volume#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.50.0",
+    "@typescript-eslint/parser": "^5.50.0",
+    "eslint": "^8.33.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3"
+  }
+}
